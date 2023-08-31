@@ -1,0 +1,104 @@
+.noti-nav{
+  background: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .main-noti-nav{
+    width: 50%;
+    text-align: left;
+    padding: 0px 20px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+  }
+
+  .sub-noti-nav{
+    width: 50%;
+    .sub-nav-links{
+      display: flex;
+      list-style: none;
+      justify-content: end;
+      margin-top: 10px;
+
+      .sub-link{
+        margin: 0px 10px;
+        padding: 0px 15px;
+        cursor: pointer;
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+
+      .divider{
+        border: white solid 1px;
+      }
+    }
+
+  }
+}
+
+.navbar-collapse{
+
+  text-align: center;
+}
+
+.navbar-brand{
+  margin-left: 20px;
+  letter-spacing: 3px;
+  font-size: 25px;
+  span{
+    font-weight: 500;
+  }
+}
+
+.nav-center{
+  font-family: 'Mukta', sans-serif;
+
+  .nav-item{
+    margin: 0px 15px;
+    &:hover{
+      text-decoration: underline;
+    }
+    .nav-link{
+      color: black;
+
+    }
+  }
+}
+
+
+.nav-left{
+  font-family: 'Mukta', sans-serif;
+
+
+  .nav-item{
+
+    .nav-btn{
+      border: black solid 1px;
+      background: white;
+      color: black;
+
+      &:hover{
+        background: black;
+        color: white;
+      }
+    }
+
+    .nav-link{
+      color: black;
+    }
+  }
+}
+
+
+
+.shop-content{
+
+  .shop-content-col{
+    list-style: none;
+  }
+}
+
+
