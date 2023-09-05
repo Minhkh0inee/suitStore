@@ -1,0 +1,60 @@
+.stage1-wrapper{
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(207, 202, 196, 0.4);
+}
+
+.stage1{
+  display: flex;
+  margin-top: 10px;
+  height:700px;
+}
+
+.left, .right{
+  width: 50%;
+}
+
+.right{
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.left{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 50px;
+  font-family: 'Playfair Display', serif;
+  .stage1-title{
+    font-size: 55px;
+    margin: 30px 30px;
+  }
+
+  .stage1-description{
+    margin: 10px 30px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .stage1-choose-list{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    .stage1-choose-link{
+      list-style: none;
+      margin-right: 20px;
+
+      &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+
+
+  }
+}
+

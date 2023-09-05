@@ -3,8 +3,71 @@
   border-bottom: black solid 1px;
   width: 95vw;
   display: flex;
-
+  padding: 100px 0px;
   .footer-category{
-    margin: 0px 40px;
+    margin: 0px 30px;
+    font-weight: 500;
+
+    .footer-link{
+      margin: 10px 0px;
+      font-weight: 400;
+      width: 120px;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+
+    .footer-link:first-child{
+      margin-top: 45px;
+
+    }
   }
+
+  .footer-category:first-child{
+    margin-right: 200px;
+    font-size: 35px;
+
+
+    .footer-link-icon{
+      font-size: 20px ;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  .vertical-divider{
+    border: 1px solid black;
+    margin-right: 50px;
+  }
+
+  .footer-search{
+    font-weight: 500;
+    .footer-link{
+      margin: 30px 0px;
+      font-weight: 400;
+    }
+
+    .input-group{
+      width: 300px;
+
+      input{
+        height: 60px;
+      }
+
+      button{
+        width: 100px;
+        background: black;
+        color: white;
+
+        &:hover{
+          background: white;
+          color: black;
+
+        }
+      }
+
+    }
+  }
+
 }
