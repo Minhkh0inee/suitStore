@@ -22,7 +22,7 @@
 
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid nav-wrapper">
-    <div class="navbar-brand" href="#"><span>SUIT</span>SHOP</div>
+    <div [routerLink]="['home']" class="navbar-brand" href="#"><span>SUIT</span>SHOP</div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -32,20 +32,22 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="nav nav-center">
         <li class="nav-item dropdown">
-          <div class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <div [routerLink]="['collection/suit']" class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+               aria-expanded="false">
             Shop
           </div>
 
         <li class="nav-item dropdown">
-          <div class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Wedding & Events
+          <div [routerLink]="['get-started']"  class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Get Started
           </div>
         </li>
 
 
         <li class="nav-item dropdown dropdown-get-started">
           <div class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Get Started
+
+            Wedding & Events
           </div>
         </li>
 
