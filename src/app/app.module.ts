@@ -9,6 +9,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ShopComponent } from './pages/shop/shop.component';
 import { GetStartedComponent } from './pages/get-started/get-started.component';
+import {EventComponent} from "./pages/event/event.component";
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { GetStartedComponent } from './pages/get-started/get-started.component';
     FooterComponent,
     HomeComponent,
     ShopComponent,
-    GetStartedComponent
+    GetStartedComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,
