@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ShopComponent } from './pages/shop/shop.component';
 import { GetStartedComponent } from './pages/get-started/get-started.component';
 import {EventComponent} from "./pages/event/event.component";
+import { FitGuideComponent } from './pages/fit-guide/fit-guide.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import {EventComponent} from "./pages/event/event.component";
     HomeComponent,
     ShopComponent,
     GetStartedComponent,
-    EventComponent
+    EventComponent,
+    FitGuideComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,200 @@
+.fit-guide-header {
+  position: relative;
+  background-image: url('../../../assets/images/pexels-ketut-subiyanto-4963375.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(100%);
+
+  .content {
+    text-align: center;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+
+    .fit-guide-header-subtitle, .fit-guide-header-description {
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+    .fit-guide-header-main-title {
+      font-size: 50px;
+      font-weight: 600;
+    }
+  }
+}
+
+.category-section {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 30px 200px;
+
+  .category {
+    cursor: pointer;
+    border-bottom: white solid 1px;
+    width: 150px;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 30px;
+    text-align: center;
+
+    &:hover {
+      padding: 0px 0px 10px 0px;
+      transition: ease-in-out 0.3s;
+    }
+  }
+}
+
+.size-up-section {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .size-up-main-title {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Mukta', sans-serif;
+    width: 800px;
+    font-weight: 600;
+    margin: 40px 0px;
+  }
+
+  .col {
+    margin: 0px 70px;
+  }
+
+  .icon {
+    margin: 20px;
+  }
+
+  .benefit-title {
+    font-family: 'Oswald', sans-serif;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 500;
+
+    span {
+      text-decoration: underline;
+    }
+  }
+
+  .benefit-description {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+
+  }
+}
+
+.tool-section {
+  padding: 80px 0px;
+  background-color: #E4E1E1;
+  font-family: 'Mukta', sans-serif;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mukta', sans-serif;
+
+    .subtitle {
+      font-size: 18px;
+      font-family: 'Mukta', sans-serif;
+
+    }
+
+    .maintitle {
+      font-family: 'Playfair Display', serif;
+      font-weight: 800;
+      font-size: 50px;
+      margin: 10px 0px;
+    }
+
+    .description {
+      text-align: center;
+      font-size: 20px;
+      width: 650px;
+      margin: 10px 0px 50px;
+    }
+
+    .benefit-tool {
+      display: flex;
+      justify-content: center;
+
+      .benefit {
+        margin: 0px 30px;
+      }
+    }
+  }
+}
+
+.smart-quiz-section-wrapper {
+  .smart-quiz-section {
+    display: flex;
+    margin-top: 80px;
+
+    .left {
+      width: 50%;
+      background-color: white;
+      padding-top: 100px;
+
+      .title {
+        font-size: 25px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        margin-bottom: 40px;
+        margin-left: 145px;
+      }
+
+      .content li {
+        list-style: none;
+        font-size: 17px;
+        padding: 10px 0px;
+        width: 500px;
+
+        span {
+          font-weight: bolder;
+        }
+      }
+    }
+
+    .right {
+      width: 50%;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .action-wrap {
+    display: flex;
+    align-items: center;
+    margin-left: 145px;
+    font-family: 'Mukta', sans-serif;
+
+    .btn-started {
+      margin-right: 30px;
+      border: black solid 1px;
+      background: white;
+      color: black;
+      width: 250px;
+      height: 50px;
+
+      &:hover {
+        transition: ease-in-out 0.3s;
+        background: black;
+        color: white;
+      }
+    }
+  }
+}
+
